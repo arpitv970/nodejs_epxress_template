@@ -12,7 +12,7 @@ const PORT = 3000
 app.use(express.json())
 
 app.use('/', (req, res) => {
-  res.send('Hello World!');
+  res.send('Hello World, this is a simple Node + Expressjs template!');
 })
 
 app.listen(PORT, () => {
